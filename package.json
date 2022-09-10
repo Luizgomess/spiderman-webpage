@@ -1,0 +1,24 @@
+{
+  "name": "spiderman-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass ./assets/styles/scss/index.scss ./assets/styles/css/index.css --output-style compressed -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luizgomess/spiderman-webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luizgomess/spiderman-webpage/issues"
+  },
+  "homepage": "https://github.com/Luizgomess/spiderman-webpage#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

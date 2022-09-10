@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Black Widow Movie';
+    src: url('BlackWidowMovie.woff2') format('woff2'),
+        url('BlackWidowMovie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

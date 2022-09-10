@@ -1,0 +1,32 @@
+.btn {
+    width: 184px;
+    height: 52px;
+    border-radius: 12px 0px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .9rem;
+    font-family: $primary-font;
+
+    &--primary {
+        background: $linear-red;
+        border: 2px solid $primary-red;
+        color: $white;
+        font-weight: 600;
+    }
+
+    &--secondary {
+        background-color: transparent;
+        border: 2px solid $primary-red;
+        color: $primary-red;
+    }
+
+    @media(max-width: 600px) {
+        & {
+            width: 100%;
+            &--secondary {
+                color: $white;
+            }
+        }
+    }
+}

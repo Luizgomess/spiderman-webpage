@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('../../img/spiderman-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overlay {
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: 'Black Widow Movie';
+    src: url('../../fonts/BlackWidowMovie.woff2') format('woff2'),
+        url('../../fonts/BlackWidowMovie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//base
+@import './base/colors';
+@import './base/fonts';
+@import './base/animations';
+
+//components
+@import './components/button';
+@import './components/video';
+
+//layout
+@import './layout/header';
+@import './layout/main';
