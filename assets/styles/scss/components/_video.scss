@@ -13,7 +13,7 @@ $component-name: "video";
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('./assets/img/miniature.png');
+        background-image: url('../../img/miniature.png');
 
         .#{$component-name}__play-button {
             width: 60px;
